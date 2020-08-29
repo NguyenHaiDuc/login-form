@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.bgr{
+	background-image: url(img/trang-tri-phong-hop-5.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+}
+
+.bgrBelow{
+	position: relative;
+	z-index: 2;
+	background-image: url(img/trang-tri-phong-hop-5.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 440px;
+	height: 600px;
+	margin: 100px auto;
+}
+
+.wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px;
+	width: 400px;
+	height: 600px;
+	margin: 100px auto;
+	position: relative;
+	z-index: 1;
+	background: rgb(251,63,63);
+	background: linear-gradient(130deg, rgba(251,63,63,0.6755077030812324) 0%, 
+	rgba(251,173,63,0.700717787114846) 100%);
+}
+
+.logoTitle{
+	margin: 0 auto;
+	padding: 50px 0px 30px 0px;
+	width: 300px;
+}
+
+.content{
+	text-align: center;
+	line-height: 1.8;
+	width: 80%;
+	padding-top: 50px;
+}
+
+.content input{
+	padding: 10px;
+	width: 100%;
+	border: 0;
+	margin: 7px 0;
+	background: inherit;
+	font-family: FontAwesome;
+}
+
+.content input::placeholder{
+	color: #fff;
+	font-size: 18px;
+}
+
+.content button{
+	margin-top: 80px;
+	padding: 10px;
+	width: 100%;
+	border-radius: 50px;
+	border: none;
+	color: red;
+	font-size: 17px;
+}
+
+.text{
+	display: flex;
+	margin: 20px 45px;
+}
+
+.text p{
+	color: #ccc;
+	font-size: 17px;
+}
